@@ -1,0 +1,80 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Quicksand:wght@300&display=swap');
+
+
+
+/* Universal styles */ 
+h1, h2, h3, h4, a {
+    font-family: "chakra petch", Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 45px;
+    color: #25AB00
+}
+
+h2 {
+    font-size: 35px;
+    color: #0487D9
+}
+
+h4 {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #25AB00;
+}
+
+p {
+    font-family: "quicksand", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p, a {
+    font-size: 25px;
+}
+
+main {
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #59B5D9;
+}
+
+.main-nav a {
+    font-size: 19px;
+    text-decoration: none;
+}
+
+#current {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #59B5D9;
+    text-align: center;
+}
+
+footer h2, footer p, footer h3 {
+    color: #FFFFFF
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color:#FFFFFF
+}
+
+footer a:hover {
+    color:#ffffffa7;
+}
+
