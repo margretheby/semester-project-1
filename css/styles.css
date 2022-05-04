@@ -1,12 +1,27 @@
 /* Imports */
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Quicksand:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Quicksand:wght@300;600&display=swap');
 
 
 
 /* Universal styles */ 
+
+body {
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 390px;
+    background-color: #FFFFFF;
+}
+
+main p {
+    margin: 0 18px;
+}
+
 h1, h2, h3, h4, a {
     font-family: "chakra petch", Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -14,13 +29,14 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 40px;
     color: #25AB00
 }
 
 h2 {
-    font-size: 35px;
-    color: #0487D9
+    font-size: 30px;
+    color: #0487D9;
+    margin-bottom: -10px;
 }
 
 h4 {
@@ -29,29 +45,69 @@ h4 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 25px;
     color: #25AB00;
 }
 
 p {
     font-family: "quicksand", Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
 }
 
 p, a {
-    font-size: 25px;
+    font-size: 20px;
 }
 
-main {
-    background-color: #FFFFFF;
+span {
+    font-weight: 600;
 }
 
-header {
-    background-color: #59B5D9;
+/* Navigation */
+.main-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    max-width: 390px;
+    
 }
 
 .main-nav a {
     font-size: 19px;
     text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+header {
+    background-color: #59B5D9;
+
+}
+
+.header {
+    margin: 0px -18px;
+    background: url("../images/mobile/homepage-header-mobile1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 264px;
+}
+
+.header-logo {
+    background-color: #ffffffca;
+    min-height: 264px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo h2, .header-logo h3 {
+    color:#25AB00;
+    margin: 0 auto;
+}
+
+.header-logo h3{
+    font-size: 20px;
 }
 
 #current {
@@ -59,13 +115,90 @@ header {
     text-decoration: underline;
 }
 
+/* CTA */
+
+.cta-button {
+    color: #FFFFFF;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #25AB00;
+    padding: 5px 25px;
+    border-radius: 50px;
+    
+}
+
+.cta-button:hover {
+    background-color: #F2B705;
+}
+
+.button-container {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Home page */
+.homepage-explore-together p, .homepage-explore-together {
+    text-align: center;
+}
+
+.homepage-container {
+    margin-bottom: 100px;
+}
+
+.homepage-explore-kids {
+    background-image: url("../images/homepage-explore1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    max-width: 390px;
+}
+
+.homepage-exhibitions {
+    background-image: url("../images/homepage-exhibitions.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    max-width: 390px;
+}
+
+.homepage-explore-teachers {
+    background-image: url("../images/homepage-explore2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    max-width: 390px;
+}
+
+/* Explore page */ 
+.explore-page-button {
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+/* Footer */ 
+
 footer {
     background-color: #59B5D9;
+    text-align: center;
+    padding-top: 0.5px;
+    padding-bottom: 30px;
+}
+
+footer p {
     text-align: center;
 }
 
 footer h2, footer p, footer h3 {
     color: #FFFFFF
+}
+
+footer h2 {
+    margin: 50px 0px 5px 0px;
 }
 
 footer a {
@@ -78,3 +211,29 @@ footer a:hover {
     color:#ffffffa7;
 }
 
+.opening-hours {
+    max-width: 220px;
+    margin: -30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer-container p {
+    margin: -15px auto;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.footer-icon {
+    margin-top: 45px;
+}
+
+.footer-icon * {
+    margin: 0;
+}
+
+.footer-icon h4 {
+    font-size: 17px;
+}
