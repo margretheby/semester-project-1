@@ -5,13 +5,12 @@
 
 /* Universal styles */ 
 
-body {
+body, div {
     margin: 0 auto;
 }
 
 main {
     margin: 0 auto;
-    max-width: 390px;
     background-color: #FFFFFF;
 }
 
@@ -49,13 +48,27 @@ h3 {
     color: #25AB00;
 }
 
-p {
+p, label {
     font-family: "quicksand", Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
 }
 
-p, a {
+a {
+    color: #25AB00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+p, a, label {
     font-size: 20px;
+}
+
+div p {
+    margin-top: 20px;
 }
 
 span {
@@ -142,11 +155,11 @@ header {
     text-align: center;
 }
 
-.homepage-container {
+.container {
     margin-bottom: 50px;
 }
 
-.homepage-explore-kids {
+.explore-kids {
     background-image: url("../images/homepage-explore1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -164,8 +177,17 @@ header {
     max-width: 390px;
 }
 
-.homepage-explore-teachers {
+.explore-teachers {
     background-image: url("../images/homepage-explore2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    max-width: 390px;
+}
+
+.explore-researchers {
+    background-image: url("../images/mobile/explore-research-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -175,9 +197,151 @@ header {
 
 /* Explore page */ 
 .explore-page-button {
-    padding: 5px 10px;
+    padding: 5px 15px;
     font-size: 15px;
+    margin: 0px 5px;
 }
+
+.explore-categories, .exhibition-nav {
+    display: flex;
+    justify-content: center;
+}
+
+/* Exhibitions page */
+.exhibition-nav img {
+    margin: 4px;
+}
+
+.exhibitions-style {
+    background-color: #000000;
+    color:#FFFFFF;
+}
+
+.exhibitions-style h1 {
+    color: #F2B705;
+}
+
+.exhibitions-style h2 {
+    color: #FFFFFF;
+}
+
+.icon-style {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+}
+
+.icon-astro {
+    background-image: url("../images/icon-astro.png");
+}
+
+.icon-dino {
+    background-image: url("../images/icon-dino.png");
+}
+
+.icon-bio {
+    background-image: url("../images/icon-bio.png");
+}
+
+.icon-robo {
+    background-image: url("../images/icon-robo.png");
+}
+
+.icon-eco {
+    background-image: url("../images/icon-eco.png");
+}
+
+.exhibition-dino-style {
+    background-color: #EFCD66;
+}
+
+
+.exhibition-dark h2, .exhibition-dark {
+    color: #000000
+}
+
+.exhibition-dark, .exhibition-astro-style, .exhibition-bio-style, .exhibition-eco-style {
+    padding: 30px 0px;
+}
+
+.exhibition-bio-style {
+    background-color: #0B70AF;
+}
+
+.exhibition-robo-style {
+    background-color: #B1B1B1;
+}
+
+.exhibition-eco-style {
+    background-color: #1A7601;
+}
+
+/* About page */
+
+.header-about {
+    background-image: url("../images/mobile/about-header-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 70%;
+}
+
+.about-opening-hours p {
+    padding: 12px 0px;
+}
+
+.about-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0px 0px 0px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 290px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    height: 170px;
+}
+
+.message-sent {
+    display: none;
+    background-color: #0487D9;
+    margin-top: -36px;
+}
+
+#send-message:checked ~ .send-message {
+    display: none;
+}
+
+#send-message:checked ~ .message-sent {
+    display: block;
+} 
+
+#send-message {
+    display: none;
+}
+
+.send-message, .message-sent {
+    font-family: "chakra petch", Georgia, 'Times New Roman', Times, serif;
+}
+
 
 /* Footer */ 
 
@@ -211,7 +375,7 @@ footer a:hover {
 }
 
 .opening-hours {
-    max-width: 220px;
+    max-width: 288px;
     margin: -30px auto;
     display: flex;
     flex-direction: row;
