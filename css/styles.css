@@ -108,6 +108,10 @@ header {
     background-color: #ffffffca;
     min-height: 264px;
     display: flex;
+}
+
+.header-text {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -320,26 +324,31 @@ header {
     height: 170px;
 }
 
-.message-sent {
+label[for="send-message"]{
+    font-family: "chakra petch", Georgia, 'Times New Roman', Times, serif;
+}
+
+.send-message, #send-message {
+    display: inline;
+}
+
+#message-sent {
     display: none;
     background-color: #0487D9;
-    margin-top: -36px;
+    padding: 5px 26px;
 }
 
-#send-message:checked ~ .send-message {
-    display: none;
-}
-
-#send-message:checked ~ .message-sent {
+#send-message:checked ~ #message-sent {
     display: block;
-} 
+}
+
+#send-message:checked ~ #send-message-button {
+    display: none;
+
+}
 
 #send-message {
     display: none;
-}
-
-.send-message, .message-sent {
-    font-family: "chakra petch", Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -400,3 +409,115 @@ footer a:hover {
 .footer-icon h4 {
     font-size: 17px;
 }
+
+@media (min-width: 730px) {
+
+    /* general */
+    p {
+        max-width: 900px;
+    }
+        .container {
+        max-width: 1000px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header div {
+        margin: 0;
+    }
+
+    header .header-text {
+        margin: 0 auto;
+    }
+
+    main {
+        max-width: 1500px;
+    }
+
+    /* Home page */
+    .header {
+        background-image: url("../images/desktop/homepage-header.jpg");
+        background-position: right;
+        min-height: 400px;
+        order: 1;
+    }
+
+    .main-nav {
+        order: 2;
+    }
+
+    .header-logo {
+        min-height: 400px;
+    }
+
+    .header-text {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-heading {
+        margin-left: 25px;
+    }
+
+    .homepage-explore-together {
+        max-width: 510px;
+    }
+
+    .layout-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .layout-homepage {
+        max-width: 450px;
+    }
+
+    .explore-kids, .homepage-exhibitions, .explore-teachers, .explore-researchers {
+        border-radius: 25px;
+    }
+
+    
+    /* About page */
+    .header-about {
+        display: none;
+    }
+
+    /* Footer */
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-icon {
+        flex-direction: column;
+        order: 1;
+    }
+
+    .footer-opening-hours {
+        order: 2;
+    }
+
+    .footer-address {
+        order: 3;
+    }
+
+    .footer-social {
+        order: 4;
+    }
+
+    .footer-link {
+        display: none;
+    }
+
+    .footer-copyright {
+        margin-top: 50px;
+    }
+
+}
+
+
