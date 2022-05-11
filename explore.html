@@ -16,43 +16,63 @@
             <a href="exhibitions.html">Exhibitions</a>
             <a href="about.html">About</a>
         </nav>
+        <div class="header hidden">
+            <div class="header-logo">
+                <div class="header-text">
+                    <img src="images/mobile/icon-header-mobile.png" alt="Community science museum's logo">
+                    <div class="header-heading">
+                        <h2>Community</h2>
+                        <h3>Science Museum</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
         <div class="container">
             <h1>Explore with us!</h1>
-            <div class="button-container explore-categories">
+            <div class="button-container explore-categories hidden-desktop">
                 <a href="#for-teachers" class="cta-button explore-page-button">Teachers</a>
                 <a href="#for-kids" class="cta-button explore-page-button">Kids</a>
                 <a href="#for-researchers" class="cta-button explore-page-button">Researchers</a>
             </div> 
         </div>
-        <div class="explore-kids" id="for-kids">
+        <div class="explore-layout">
+            <div class="explore-kids" id="for-kids">
+                <img src="images/desktop/explore-for-kids.jpg" alt="Woman in a lab" class="hidden resize-image">
+            </div>
+            <div class="container">
+                <h2>For kids</h2>
+                <p>Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.</p> 
+                <p>You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.</p>
+                <p>We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you’ll get to explore and experiment with our team of experts. To find out more and how you can join, <a href="about.html#contact-us">send us a message</a>.</p>
+            </div>
         </div>
-        <div class="container">
-            <h2>For kids</h2>
-            <p>Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.</p> 
-            <p>You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.</p>
-            <p>We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you’ll get to explore and experiment with our team of experts. To find out more and how you can join, <a href="about.html#contact-us">send us a message</a>.</p>
+        <div class="explore-layout">
+            <div class="explore-teachers" id="for-teachers">
+                <img src="images/desktop/explore-for-teachers.jpg" alt="Girl looking at a blackboard" class="hidden resize-image">
+            </div>
+            <div class="container">
+                <h2>For teachers</h2>
+                <p>As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.</p> 
+                <p><a href="about.html#contact-us">Please get in touch with us here </a>to find out more about our facilities and to arrange a time to bring your students through for a visit.</p>
+            </div>
         </div>
-        <div class="explore-teachers" id="for-teachers">
-        </div>
-        <div class="container">
-            <h2>For teachers</h2>
-            <p>As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.</p> 
-            <p><a href="about.html#contact-us">Please get in touch with us here </a>to find out more about our facilities and to arrange a time to bring your students through for a visit.</p>
-        </div>
-        <div class="explore-researchers" id="for-researchers">
-        </div>
-        <div class="container">
-            <h2>For researchers</h2>
-            <p>Are you looking to get involved with our team of researchers and academics? Our museum offers various ways for you to use our resources and contribute towards them. We have online records, laboratory space, and a working relationship with a number of universities around the country. <a href="about.html#contact-us">Send us a message </a> if you are interested in using our facilities.</p> 
+        <div class="explore-layout">
+            <div class="explore-researchers" id="for-researchers">
+                <img src="images/desktop/explore-for-researchers.jpg" alt="Man looking into a microscope" class="hidden resize-image">
+            </div>
+            <div class="container">
+                <h2>For researchers</h2>
+                <p>Are you looking to get involved with our team of researchers and academics? Our museum offers various ways for you to use our resources and contribute towards them. We have online records, laboratory space, and a working relationship with a number of universities around the country. <a href="about.html#contact-us">Send us a message </a> if you are interested in using our facilities.</p> 
+            </div>
         </div>
         <div class="button-container container">
             <a href="about.html"  class="cta-button">Contact us</a>
         </div>
     </main>
     <footer>
-        <div>
+        <div class="footer-opening-hours">
             <h2>Opening hours</h2>
             <div class="opening-hours">
                 <p><span>Monday: </span></p>
@@ -83,13 +103,13 @@
                 <p>09:00-13:00</p>
             </div>
         </div>
-        <div class="footer-container">
+        <div class="footer-container footer-address">
             <h2>Address</h2>
             <p>Universitetsgata 23B</p>
             <p>0156 Oslo</p>
             <p>Norway</p>
         </div>
-        <div class="footer-container">
+        <div class="footer-container footer-social">
             <h2>Social</h2>
             <a href="https://facebook.com">Facebook</a>
             <a href="https://twitter.com">Twitter</a>
@@ -100,12 +120,10 @@
             <img src="images/icon-footer.png" alt="Community science museum's logo">
             <h3>Community</h3>
             <h4>Science Museum</h4>
-        </div>
-        <div class="footer-container footer-icon">
-            <h4>Copyright 2022</h4>
+            <h4 class="footer-copyright">Copyright 2022</h4>
             <h4>Margrethe By</h4>
         </div>
-        <div class="footer-icon">
+        <div class="footer-icon footer-link">
             <a href="#top">To the top</a>
         </div>
     </footer>

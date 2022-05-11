@@ -75,6 +75,10 @@ span {
     font-weight: 600;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Navigation */
 .main-nav {
     margin: 0 auto;
@@ -282,6 +286,10 @@ header {
     background-color: #1A7601;
 }
 
+.exhibition-nav img {
+    height: 60px;
+}
+
 /* About page */
 
 .header-about {
@@ -290,6 +298,16 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 70%;
+}
+
+.about-layout {
+    max-width: 500px;
+}
+
+.about-text {
+    max-width: 780px;
+    margin: 5px auto;
+    padding-left: 10px;
 }
 
 .about-opening-hours p {
@@ -410,7 +428,7 @@ footer a:hover {
     font-size: 17px;
 }
 
-@media (min-width: 730px) {
+@media (min-width: 882px) {
 
     /* general */
     p {
@@ -435,6 +453,14 @@ footer a:hover {
 
     main {
         max-width: 1500px;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .hidden-desktop, .header-about {
+        display: none;
     }
 
     /* Home page */
@@ -479,10 +505,66 @@ footer a:hover {
         border-radius: 25px;
     }
 
-    
+    /* Explore page */
+    .explore-layout {
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-rows: 1fr 1px;
+        gap: 50px
+    } 
+
+    .explore-layout .container {
+        margin-top: -32px;
+    }
+    .resize-image {
+        height: 200px;
+        width: 300px;
+    }
+
+    .explore-layout .container h2 {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    /* Exhibition page */
+    .header-heading h2 {
+        color: #25AB00;
+    }
+
+    .exhibition-astro-style, .exhibition-dino-style, .exhibition-bio-style, .exhibition-robo-style, .exhibition-eco-style {
+        display: grid;
+        grid-template-columns: 400px 1fr;
+        grid-template-rows: 1fr;
+        margin: 30px 30px;
+        border-radius: 25px;
+    }
+
+    .exhibition-text h2 {
+        text-align: left;
+        margin-left: 19px;
+    }
+
+    .exhibition-nav img {
+        margin: 0px 20px;
+        height: 130px;
+    }
+
     /* About page */
-    .header-about {
-        display: none;
+    .about-desktop {
+        background-image: url("../images/desktop/about-web.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 374px;
+        max-width: 882px;
+    }
+
+    .about-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        max-width: 800px;
+
     }
 
     /* Footer */

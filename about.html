@@ -16,95 +16,111 @@
             <a href="exhibitions.html">Exhibitions</a>
             <a href="about.html" id="current">About</a>
         </nav>
+        <div class="header hidden">
+            <div class="header-logo">
+                <div class="header-text">
+                    <img src="images/mobile/icon-header-mobile.png" alt="Community science museum's logo">
+                    <div class="header-heading">
+                        <h2>Community</h2>
+                        <h3>Science Museum</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
         <div class="header header-about">
         </div>
         <div class="container">
             <h1>About us</h1>
-            <p>We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home). Got any questions?</p>
+            <div class="hidden about-desktop">
+            </div>
+            <p class="about-text">We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home). Got any questions?</p>
             <div class="button-container">
                 <a href="#contact-us" class="cta-button">Contact info</a>
             </div>
         </div>
-        <div class="container">
-            <h2>Admission</h2>
-            <p>The entrance is free for all. </p>
-            <p>There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum. </p>    
-            <p>If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
-        </div>
-        <div class="container about-opening-hours">
-            <h2>Opening hours</h2>
-            <div class="opening-hours">
-                <p><span>Monday: </span></p>
-                <p>Closed</p>
+        <div class="about-layout">
+            <div class="container">
+                <h2>Admission</h2>
+                <p>The entrance is free for all. </p>
+                <p>There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum. </p>    
+                <p>If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
             </div>
-            <div class="opening-hours">
-                <p><span>Tuesday: </span></p>
-                <p>10:00-16:00</p>
+            <div class="container about-opening-hours">
+                <h2>Opening hours</h2>
+                <div class="opening-hours">
+                    <p><span>Monday: </span></p>
+                    <p>Closed</p>
+                </div>
+                <div class="opening-hours">
+                    <p><span>Tuesday: </span></p>
+                    <p>10:00-16:00</p>
+                </div>
+                <div class="opening-hours">
+                    <p><span>Wednesday: </span></p>
+                    <p>10:00-16:00</p>
+                </div>
+                <div class="opening-hours">
+                    <p><span>Thursday: </span></p>
+                    <p>10:00-16:00</p>
+                </div>
+                <div class="opening-hours">
+                    <p><span>Friday: </span></p>
+                    <p>10:00-19:00</p>
+                </div>
+                <div class="opening-hours">
+                    <p><span>Saturday: </span></p>
+                    <p>09:00-16:00</p>
+                </div>
+                <div class="opening-hours">
+                    <p><span>Sunday: </span></p>
+                    <p>09:00-13:00</p>
+                </div>
             </div>
-            <div class="opening-hours">
-                <p><span>Wednesday: </span></p>
-                <p>10:00-16:00</p>
+            <div class="container">
+                <h2>Accessibility</h2>
+                <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
             </div>
-            <div class="opening-hours">
-                <p><span>Thursday: </span></p>
-                <p>10:00-16:00</p>
+            <div class="container about-location">
+                <h2>Location</h2>
+                <p><span>Universitetsgata 23B</span></p>
+                <p><span>0156 Oslo</span></p>
+                <p><span>Norway</span></p>
             </div>
-            <div class="opening-hours">
-                <p><span>Friday: </span></p>
-                <p>10:00-19:00</p>
-            </div>
-            <div class="opening-hours">
-                <p><span>Saturday: </span></p>
-                <p>09:00-16:00</p>
-            </div>
-            <div class="opening-hours">
-                <p><span>Sunday: </span></p>
-                <p>09:00-13:00</p>
-            </div>
-        </div>
-        <div class="container about-location">
-            <h2>Location</h2>
-            <p><span>Universitetsgata 23B</span></p>
-            <p><span>0156 Oslo</span></p>
-            <p><span>Norway</span></p>
-        </div>
-        <div class="container">
-            <h2>Accessibility</h2>
-            <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
-        </div>
-        <div class="container">
-            <h2>Food and drink</h2>
-            <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
-        </div>        
-        <div class="container">
-            <h2>Shop</h2>
-            <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
-        </div>        
-        <div class="container" id="contact-us">
-            <h2>Contact</h2>
-            <p><span>Email: </span> post@csmuseum.com</p>
-            <p><span>Phone: </span> +47 22 33 44 55</p>
-            <p>You can contact us by phone and e-mail, or fill out our contact form, and we will get on touch with you as soon as possible. </p>
-        </div>        
-        <div class="container contact-form">
-            <h2>Contact us</h2>
-            <form method="POST">
-                <label for="fullname">Name</label><input type="text" name="fullname" id="fullname">
-                <label for="phone">Phone number</label><input type="tel" name="phone" id="phone">
-                <label for="e-mail">E-mail</label><input type="text" name="e-mail" id="e-mail">
-                <label for="message">Message</label><textarea name="message" id="message"></textarea>
-            </form>
-            <div class="container message-container">
-                <input type="checkbox" id="send-message" name="send-message">
-                <label for="send-message" class="cta-button" id="send-message-button">Send message</label>
-                <label for="send-message" class="cta-button" id="message-sent">Message sent</label>
+
+            <div class="container">
+                <h2>Food and drink</h2>
+                <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+            </div>        
+            <div class="container">
+                <h2>Shop</h2>
+                <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
+            </div>        
+            <div class="container" id="contact-us">
+                <h2>Contact</h2>
+                <p><span>Email: </span> post@csmuseum.com</p>
+                <p><span>Phone: </span> +47 22 33 44 55</p>
+                <p>You can contact us by phone and e-mail, or fill out our contact form, and we will get on touch with you as soon as possible. </p>
+            </div>        
+            <div class="container contact-form">
+                <h2>Contact us</h2>
+                <form method="POST">
+                    <label for="fullname">Name</label><input type="text" name="fullname" id="fullname">
+                    <label for="phone">Phone number</label><input type="tel" name="phone" id="phone">
+                    <label for="e-mail">E-mail</label><input type="text" name="e-mail" id="e-mail">
+                    <label for="message">Message</label><textarea name="message" id="message"></textarea>
+                </form>
+                <div class="container message-container">
+                    <input type="checkbox" id="send-message" name="send-message">
+                    <label for="send-message" class="cta-button" id="send-message-button">Send message</label>
+                    <label for="send-message" class="cta-button" id="message-sent">Message sent</label>
+                </div>
             </div>
         </div>
     </main>
     <footer>
-        <div>
+        <div class="footer-opening-hours">
             <h2>Opening hours</h2>
             <div class="opening-hours">
                 <p><span>Monday: </span></p>
@@ -135,13 +151,13 @@
                 <p>09:00-13:00</p>
             </div>
         </div>
-        <div class="footer-container">
+        <div class="footer-container footer-address">
             <h2>Address</h2>
             <p>Universitetsgata 23B</p>
             <p>0156 Oslo</p>
             <p>Norway</p>
         </div>
-        <div class="footer-container">
+        <div class="footer-container footer-social">
             <h2>Social</h2>
             <a href="https://facebook.com">Facebook</a>
             <a href="https://twitter.com">Twitter</a>
@@ -152,12 +168,10 @@
             <img src="images/icon-footer.png" alt="Community science museum's logo">
             <h3>Community</h3>
             <h4>Science Museum</h4>
-        </div>
-        <div class="footer-container footer-icon">
-            <h4>Copyright 2022</h4>
+            <h4 class="footer-copyright">Copyright 2022</h4>
             <h4>Margrethe By</h4>
         </div>
-        <div class="footer-icon">
+        <div class="footer-icon footer-link">
             <a href="#top">To the top</a>
         </div>
     </footer>
