@@ -28,7 +28,7 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 40px;
-    color: #25AB00
+    color: #25AB00;
 }
 
 h2 {
@@ -95,7 +95,7 @@ span {
 }
 
 header {
-    background-color: #59B5D9;
+    background-color: #0487D9;
 }
 
 header > a:hover {
@@ -362,7 +362,7 @@ label[for="send-message"]{
 /* Footer */ 
 
 footer {
-    background-color: #59B5D9;
+    background-color: #0487D9;
     text-align: center;
     padding-top: 0.5px;
     padding-bottom: 30px;
