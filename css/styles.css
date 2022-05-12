@@ -441,6 +441,14 @@ footer a:hover {
         margin: 0 auto;
     }
 
+    .header-logo h2 {
+        font-size: 50px;
+    }
+    
+    .header-logo h3{
+        font-size: 33px;
+    }
+
     main {
         max-width: 1500px;
     }
