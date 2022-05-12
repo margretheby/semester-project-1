@@ -95,7 +95,7 @@ span {
 }
 
 header {
-    background-color: #0487D9;
+    background-color: #0B70AF;
 }
 
 header > a:hover {
@@ -362,7 +362,7 @@ label[for="send-message"]{
 /* Footer */ 
 
 footer {
-    background-color: #0487D9;
+    background-color: #0B70AF;
     text-align: center;
     padding-top: 0.5px;
     padding-bottom: 30px;
