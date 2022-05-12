@@ -215,6 +215,10 @@ header > a:hover {
     justify-content: center;
 }
 
+.explore-layout {
+    max-width: 430px;
+}
+
 /* Exhibitions page */
 .exhibition-nav img {
     margin: 4px;
@@ -231,6 +235,10 @@ header > a:hover {
 
 .exhibitions-style h2 {
     color: #FFFFFF;
+}
+
+.exhibition-text {
+    max-width: 500px;
 }
 
 .icon-style {
@@ -540,6 +548,10 @@ footer a:hover {
         border-radius: 25px;
     }
 
+    .exhibition-text, .about-text {
+        max-width: 900px;
+    }
+
     .exhibition-text h2 {
         text-align: left;
         margin-left: 19px;
@@ -590,6 +602,10 @@ footer a:hover {
 
     .footer-social {
         order: 4;
+    }
+
+    .opening-hours span {
+        padding-right: 20px;
     }
 
     .footer-copyright {
