@@ -472,7 +472,7 @@ footer a:hover {
     /* Home page */
     .header {
         background-image: url("../images/desktop/homepage-header.jpg");
-        background-position: right;
+        background-position: center;
         min-height: 400px;
         order: 1;
     }
