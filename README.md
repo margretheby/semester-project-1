@@ -1,7 +1,7 @@
-# semester-project-1
+# Semester project 1 - first semester at Noroff
 A four week long semester project.
 
-Brief:
+#Brief:
 Science museum website
 
 An interactive science museum called the Community Science Museum is opening in your town/city. 
