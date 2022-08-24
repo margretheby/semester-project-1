@@ -10,3 +10,6 @@ The museum wants a website that is informative and appealing, that will attract 
 The site should appeal to youngsters without pandering; it should take for granted that the audience is inquisitive and intelligent. 
 The website should be informative and engaging, but should encourage viewers to visit the museum itself. 
 The website should be responsive and be easy to use on a variety of devices.
+
+Result: 
+https://mbcsm.netlify.app/
