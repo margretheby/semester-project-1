@@ -74,7 +74,7 @@ span {
     font-weight: 600;
 }
 
-.hidden {
+.hidden, .opacity-none h2  {
     display: none;
 }
 
@@ -174,7 +174,7 @@ header > a:hover {
 }
 
 .opacity-none {
-    opacity: 0;
+    opacity: 100%;
     content: "";
 }
 
@@ -466,7 +466,7 @@ footer a:hover {
         display: block;
     }
 
-    .hidden-desktop, .header-about, .footer-link, .opacity-none h2 {
+    .hidden-desktop, .header-about, .footer-link{
         display: none;
     }
 
@@ -512,10 +512,6 @@ footer a:hover {
 
     .explore-kids, .homepage-exhibitions, .explore-teachers, .explore-researchers {
         border-radius: 25px;
-    }
-
-    .opacity-none {
-        opacity: 100;
     }
 
     /* Explore page */
