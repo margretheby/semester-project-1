@@ -1,15 +1,26 @@
-# Semester project 1 - first semester at Noroff
-A four week long semester project.
+# Semester Project 1 - Community Science Museum
 
-Brief:
-Science museum website
+<img src="https://github.com/margretheby/semester-project-1/blob/main/CSM%20screenshot.jpg" alt="Screenshot of the Community Science Museum website on desktop">
+A four week semester project in the spring of 2022, during the frontend development course at Noroff School of Technology and Digital Media.
 
-An interactive science museum called the Community Science Museum is opening in your town/city. 
-Its core target audience is primary and middle school children (7-15) and families with young children. 
-The museum wants a website that is informative and appealing, that will attract both middle school pupils and their parents. 
-The site should appeal to youngsters without pandering; it should take for granted that the audience is inquisitive and intelligent. 
-The website should be informative and engaging, but should encourage viewers to visit the museum itself. 
-The website should be responsive and be easy to use on a variety of devices.
+## Description
+This assignment was to create a website for a new interactive museum that was opening. The target audience was primary and middle school children, ages 7. to 15, and families with children in that age group. The website had to be informative and appealing, responsive across a variety of devices, and easy to use. Images and copy text was provided.
 
-Result: 
-https://mbcsm.netlify.app/
+Link til site: https://mbcsm.netlify.app/
+
+## Built with
+- HTML
+- CSS
+
+## Getting started
+### Installing
+1. Clone the repo:
+
+``` 
+git clone git@github.com:margretheby/semester-project-1.git
+```
+
+## Contact
+- <a href="https://www.linkedin.com/in/margrethe-by-6abb98226/">My LinkedIn page</a>
+- <a href="https://github.com/margretheby">My GitHub</a>
+- <a href="mailto:margrethe.developer@gmail.com">margrethe.developer@gmail.com</a>
